@@ -2,17 +2,20 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    k,
 }
 header{
     display: flex;
     justify-content: space-evenly;
     background-color: rgba(128, 128, 128, 0.725);
 }
+#logo{
+    height: 150px;
+    width: 150px;
+}
 nav{
     margin-top: 10px;
 }
-a{
+nav a{
     padding:5px 15px ;
     margin-top: 10px;
     text-decoration: none;
@@ -24,6 +27,6 @@ header img{
     height: 30px;
     width: 30px;
 }
-a:hover{
+nav a:hover{
     border-bottom: 2px solid black;
 }

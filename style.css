@@ -6,7 +6,7 @@
 header{
     display: flex;
     justify-content: space-around;
-    background-color: rgba(128, 128, 128, 0.725);
+    background-color: #eef0f1;
 }
 #logo{
     height: 150px;
@@ -20,12 +20,14 @@ nav a{
     margin-top: 10px;
     text-decoration: none;
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
 }
-header img{
+#achat{
     height: 30px;
     width: 30px;
+    margin-top: 70px;
+
 }
 nav a:hover{
     border-bottom: 2px solid black;

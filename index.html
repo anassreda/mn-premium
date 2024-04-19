@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MNpremium</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        // JavaScript function to reload the page
+        function refreshPage() {
+            location.reload();
+        }
+    </script>
 </head>
 <body>
     <header>
-        <img src="icon/MN PREMIUM 1.png" alt="logo" id="logo">
+        <!-- Add an onclick attribute to the logo to call the refreshPage function -->
+        <a href="#" onclick="refreshPage()"><img src="icon/MN PREMIUM 1.png" alt="logo" id="logo"></a>
         <nav>
             <a href="#accueil">Accueil</a>
             <a href="#actualit">Actualités</a>
-            <a href="#categorie">catégorie</a>
-            <a href="#contact">contact</a>
+            <a href="#categorie">Catégorie</a>
+            <a href="#contact">Contact</a>
         </nav>
-        <a href="#buy"><img src="icon/cart.png" alt="">achat</a>
+        <a href="#buy"><img src="icon/cart.png" alt="">Achat</a>
     </header>
 </body>
 </html>

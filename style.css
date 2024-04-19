@@ -5,7 +5,7 @@
 }
 header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: rgba(128, 128, 128, 0.725);
 }
 #logo{
@@ -13,7 +13,7 @@ header{
     width: 150px;
 }
 nav{
-    margin-top: 10px;
+    margin-top: 70px;
 }
 nav a{
     padding:5px 15px ;

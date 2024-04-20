@@ -3,32 +3,73 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 header{
+    z-index: 1;
+    position: sticky;
+    top: 0px;
     display: flex;
-    justify-content: space-around;
-    background-color: #eef0f1;
+    background-color: #848484a3;
+    justify-content: space-evenly;
 }
 #logo{
-    height: 150px;
-    width: 150px;
+    height: 7vw;
+    width: 7vw;
 }
 nav{
-    margin-top: 70px;
+    display: flex;
+    /* margin-top: 70px; */
+    align-items: center;
+
 }
+
 nav a{
-    padding:5px 15px ;
+    padding: 5px 15px;
     margin-top: 10px;
     text-decoration: none;
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:25px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 6px;
+}
+a{
+    display: flex;
+    align-items: center;
+}
+video{
+    position: relative;
+    width: 100%;
+    filter: brightness(0.2);
+}
+.text{
+    display: flex;
+    color: white;
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 41%;
+    height: 24%;
+    background-color: #a5a9a733;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    /* margin: 10px; */
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1{
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 3px;
+    
+}
+h2{
+    font-size: 21px;
+    font-weight: 100;
 }
 #achat{
     height: 30px;
     width: 30px;
-    margin-top: 70px;
-    
-
 }
 nav a:hover{
     border-bottom: 2px solid black;
